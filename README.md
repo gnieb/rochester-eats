@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Rochester Eats
+Playing with food in the city
+
+## About 
+
+### Built With
+- React
+- Typescript
+- Material UI
+- Tailwind
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
