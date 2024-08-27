@@ -1,5 +1,8 @@
 export default function Root () {
     return(
-        <div>ROOT THINGS</div>
+        <div className=" text-center text-2xl">
+            Hello World!
+            
+        </div>
     )
 };
