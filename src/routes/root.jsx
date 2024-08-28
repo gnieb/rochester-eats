@@ -1,5 +1,6 @@
 import Login from "../pages/login/Login"
-import { Button, Link } from "@mui/material"
+import { Button } from "@mui/material"
+import { Link, useNavigate, useParams } from "react-router-dom";
 
 export default function Root () {
     return(
@@ -7,7 +8,10 @@ export default function Root () {
             <div>
                 <div>Hello World!</div>
                 
-                    <Link className="rounded-full bg-orange-500 p-2 text-orange-800" to={<Login />}>LOG IN</Link>
+                    <Link 
+                    className="rounded-full bg-orange-500 p-2 text-orange-800"
+                    to="/login" >
+                    LOG IN</Link>
             </div>
         </div>
     )
